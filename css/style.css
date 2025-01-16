@@ -1,0 +1,23 @@
+body{
+    font-family: "Poppins", serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.name-highlight{
+    color: orange;
+}
+.half-witdh{
+    width: 40%;
+    float: left;
+    margin-left: 20px;
+}
+.half-witdh img{
+    width: 120%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.welcomeh1{
+    margin-top: 50px;
+}
