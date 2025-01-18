@@ -1,9 +1,18 @@
 body{
     font-family: "Poppins", serif;
+    margin: 0;
 }
+
 h1{
     font-size: 50px;
     font-weight: 500;
+}
+h2{
+    font-size: 40px;
+
+}
+p{
+    color: rgb(70, 70, 70);
 }
 .name-highlight{
     color: orange;
@@ -11,13 +20,97 @@ h1{
 .half-witdh{
     width: 40%;
     float: left;
-    margin-left: 20px;
+    margin: 3%;
 }
 .half-witdh img{
-    width: 120%;
-    margin-top: 50px;
-    margin-left: 20px;
+    width:110%;
 }
 .welcomeh1{
     margin-top: 50px;
+}
+.top-banner{
+    background:url("../images/top-banner.png")no-repeat;
+    height: 500px;
+}
+.description{
+    margin-bottom: 30px;
+}
+
+.link-btn{
+    text-decoration: none;
+    padding: 10px 26px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+}
+.dream-area{
+background:url("../images/dream-bg.png")no-repeat;
+background-position: right;
+height: 570px;
+}
+.dream-half{
+    width: 40%;
+    float: left;
+    margin: 3%;
+}
+.dream-half img{
+    width:100%;
+}
+.explore-btn{
+    text-decoration: none;
+    padding: 10px 26px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, blue,rgb(58, 58, 90));
+    color: white;
+}
+.dream-description{
+    margin-left:7%;
+    margin-top: 80px;
+}
+.experience-area{
+    background: url("../images/exp-bg.png")no-repeat;
+    height: 500px;
+    float: left;
+    background-position: -1% 80%;
+
+
+}
+.experience-half{
+    width: 38%;
+    float: left;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    height: 50%;
+    border-radius: 5px;
+    margin: 5%;
+}
+.experience-area h1{
+    text-align:center ;
+    margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.experience-area h4{
+    color: orange;
+}
+#full-stack{
+    border-left:6px solid ;
+    border-image: linear-gradient(180deg,rgb(125, 33, 23),tomato) ;
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left:6px solid ;
+    border-image: linear-gradient(180deg,rgb(125, 33, 23),rgb(10, 17, 205)) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
 }
